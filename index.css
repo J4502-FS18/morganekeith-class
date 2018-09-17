@@ -23,6 +23,7 @@ ul {
   font-style: italic;
   text-align: center;
   list-style-type: none;
+  punctuation: none;
 }
 
 .center {
