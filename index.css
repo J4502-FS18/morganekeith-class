@@ -1,0 +1,37 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  color: gray;
+  font-family: "PT Serif", Arial, serif;
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: "Noto Serif", Times, serif;
+  font-size: 150%;
+  text-align: center;
+}
+
+ul {
+  color: black;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  list-style-type: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+  border: none;
+}
