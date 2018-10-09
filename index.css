@@ -10,6 +10,7 @@ h1 {
   text-align: center;
 }
 
+
 .container {
 	padding: 10px;
 	background: #808080;
@@ -52,3 +53,23 @@ ul {
 img {
   border: none;
 }
+
+
+.container {
+display: flex;
+flex-direction: column;
+}
+
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
