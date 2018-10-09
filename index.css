@@ -3,22 +3,38 @@ body {
 }
 
 h1 {
-  color: gray;
+  color: #808080;
   font-family: "PT Serif", Arial, serif;
   font-size: 300%;
   font-weight: bold;
   text-align: center;
 }
 
+.container {
+	padding: 10px;
+	background: #808080;
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba ();
+}
+.item {
+	color: #808080;
+	padding: 15px;
+	margin: 5px;
+	background: #ffc0cb;
+	border-radius: 3px;
+}
+
+
 p {
-  color: white;
+  color: #fbf9f4;
   font-family: "Noto Serif", Times, serif;
   font-size: 150%;
   text-align: center;
 }
 
 ul {
-  color: black;
+  color: #fbf9f4;
   font-family: "Poppins", Helvetica, sans-serif;
   font-style: italic;
   text-align: center;
