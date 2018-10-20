@@ -1,5 +1,5 @@
 body {
-  background-color: powderblue;
+  background-color: #c6e2ff;
 }
 
 h1 {
@@ -9,7 +9,6 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
-
 
 .container {
 	padding: 10px;
@@ -37,6 +36,7 @@ p {
   text-align: center;
 }
 
+
 ul {
   color: #fbf9f4;
   font-family: "Poppins", Helvetica, sans-serif;
@@ -44,6 +44,23 @@ ul {
   text-align: center;
   list-style-type: none;
   punctuation: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #fbf9f4;
+  text-decoration: underline;
+}
+
+/*visited link*/
+a:visited {
+  color: #808080;
+  text-decoration: underline;
+}
+
+/*hover link*/
+a:hover {
+  background-color: #ffc0cb;
 }
 
 .center {
