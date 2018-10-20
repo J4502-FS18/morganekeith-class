@@ -73,8 +73,8 @@ a:hover {
 img {
   border: none;
   display: block;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: auto;
 }
 
 .container {
