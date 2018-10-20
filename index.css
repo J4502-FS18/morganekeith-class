@@ -72,8 +72,10 @@ a:hover {
 
 img {
   border: none;
+  display: block;
+  width: 400px;
+  height: 400px;
 }
-
 
 .container {
 display: flex;
