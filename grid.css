@@ -1,1 +1,5 @@
-as;lkfjldsak;dfla
+/* mobile width 550/600px, intermediate tablet 500-900px, desktop 1200+ */
+.title {
+  display: flex;
+  justify-content: center;
+}
