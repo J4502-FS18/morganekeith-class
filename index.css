@@ -50,7 +50,6 @@ ul {
   font-style: italic;
   text-align: center;
   list-style-type: none;
-  punctuation: none;
 }
 
 /* unvisited link */
@@ -94,7 +93,7 @@ width: 95%
   .container {
     flex-direction: column;
     justify-content: center;
-    width: 80%
+    width: 80%;
     height: auto;
   }
 }
