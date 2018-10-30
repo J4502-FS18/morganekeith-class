@@ -20,13 +20,17 @@ article:last-of-type {
 }
 
 
-
-
-
 @media screen and (min-width: 1000px;) {
   article {
     display: grid;
-    grid-template-columns:
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    "a b"
+    "c e";
+  }
+  #container {
+    max-width: 1300px;
   }
 }
 
