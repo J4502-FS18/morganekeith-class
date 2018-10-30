@@ -90,6 +90,7 @@ width: 95%
     flex-direction: column;
     justify-content: center;
     width: 80%
+    height: auto;
   }
 }
 
@@ -105,3 +106,35 @@ width: 95%
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (min-width: 1000px;) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    "a b"
+    "c e";
+  }
+  #container {
+    max-width: 1300px;
+  }
+}
+
+
+
+  .section1 {
+    grid-area: a;
+  }
+
+  .ul {
+    grid-area: b;
+  }
+
+  .section2 {
+    grid-area: c;
+  }
+
+  .image {
+    grid-area: d;
+  }
