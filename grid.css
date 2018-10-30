@@ -26,6 +26,24 @@ article:last-of-type {
 @media screen and (min-width: 1000px;) {
   article {
     display: grid;
-    grid-template-columns: 
+    grid-template-columns:
   }
 }
+
+
+
+  .section1 {
+    grid-area: a;
+  }
+
+  .ul {
+    grid-area: b;
+  }
+
+  .section2 {
+    grid-area: c;
+  }
+
+  .image {
+    grid-area: d;
+  }
