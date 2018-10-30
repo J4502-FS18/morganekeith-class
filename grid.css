@@ -27,7 +27,7 @@ article:last-of-type {
     grid-gap: 20px;
     grid-template-areas:
     "a b"
-    "c e";
+    "c d";
   }
   #container {
     max-width: 1300px;
